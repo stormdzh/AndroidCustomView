@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cpbv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.allen.androidcustomview.activity.ProgressBarActivity">
+
+    <com.allen.androidcustomview.widget.CircleProgressBarView
+        android:id="@+id/circle_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        cpbv:centerProgressTextColor="@color/colorAccent"
+        cpbv:centerProgressTextSize="20sp"
+        cpbv:circleBgStrokeWidth="10dp"
+        cpbv:isDrawCenterProgressText="true"
+        cpbv:progressStrokeWidth="10dp" />
+
+
+    <TextView
+        android:id="@+id/progress_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <com.allen.androidcustomview.widget.HorizontalProgressBar
+        android:id="@+id/horizontal_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <com.allen.androidcustomview.widget.ProductProgressBar
+        android:id="@+id/product_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <com.allen.androidcustomview.widget.LoadingLineView
+        android:id="@+id/loading_line_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/startAnimationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="启动动画" />
+
+    <com.allen.androidcustomview.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center" />
+</LinearLayout>
