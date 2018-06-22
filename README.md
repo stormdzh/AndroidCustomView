@@ -27,3 +27,7 @@
 
 # [**一行代码实现吸顶悬停效果**]
 ![吸顶悬停.gif](http://osnoex6vf.bkt.clouddn.com/hover_view.gif)
+
+# [**在水波中晃动的小船，周围还有各种小气泡**]
+![boat_wava.gif](https://github.com/stormdzh/AndroidCustomView/blob/master/pre/boat_wava.gif)
+
