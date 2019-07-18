@@ -23,7 +23,7 @@
         android:visibility="gone" />
 
 
-    <com.allen.androidcustomview.widget.BubbleView
+    <com.stormdzh.androidcustomview.widget.BubbleView
         android:id="@+id/circle_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

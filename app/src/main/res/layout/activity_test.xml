@@ -27,13 +27,13 @@
             android:orientation="vertical">
 
 
-            <com.allen.androidcustomview.widget.TXWaveViewByBezier
+            <com.stormdzh.androidcustomview.widget.TXWaveViewByBezier
                 android:id="@+id/wave_bezier1"
                 android:layout_width="match_parent"
                 android:layout_height="400dp"
                 android:layout_alignParentBottom="true" />
 
-            <com.allen.androidcustomview.widget.TXWaveViewByBezier
+            <com.stormdzh.androidcustomview.widget.TXWaveViewByBezier
                 android:id="@+id/wave_bezier2"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
@@ -46,13 +46,13 @@
             android:layout_height="match_parent">
 
             <!--顶部气泡-->
-            <com.allen.androidcustomview.widget.TxBubbleLayout
+            <com.stormdzh.androidcustomview.widget.TxBubbleLayout
                 android:layout_width="match_parent"
                 android:layout_height="150dp" />
 
             <!--水底气泡-->
 
-            <com.allen.androidcustomview.widget.BubbleView2
+            <com.stormdzh.androidcustomview.widget.BubbleView2
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </RelativeLayout>

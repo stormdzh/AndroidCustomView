@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="贝塞尔曲线实现的水波效果" />
 
-    <com.allen.androidcustomview.widget.WaveViewByBezier
+    <com.stormdzh.androidcustomview.widget.WaveViewByBezier
         android:id="@+id/wave_bezier"
         android:layout_width="match_parent"
         android:layout_height="100dp" />

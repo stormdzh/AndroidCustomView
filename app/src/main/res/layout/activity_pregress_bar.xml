@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.allen.androidcustomview.activity.ProgressBarActivity">
+    tools:context="com.stormdzh.androidcustomview.activity.ProgressBarActivity">
 
-    <com.allen.androidcustomview.widget.CircleProgressBarView
+    <com.stormdzh.androidcustomview.widget.CircleProgressBarView
         android:id="@+id/circle_progress_view"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -26,19 +26,19 @@
         android:gravity="center"
         android:textSize="20sp" />
 
-    <com.allen.androidcustomview.widget.HorizontalProgressBar
+    <com.stormdzh.androidcustomview.widget.HorizontalProgressBar
         android:id="@+id/horizontal_progress_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp" />
 
-    <com.allen.androidcustomview.widget.ProductProgressBar
+    <com.stormdzh.androidcustomview.widget.ProductProgressBar
         android:id="@+id/product_progress_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp" />
 
-    <com.allen.androidcustomview.widget.LoadingLineView
+    <com.stormdzh.androidcustomview.widget.LoadingLineView
         android:id="@+id/loading_line_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
         android:layout_marginTop="20dp"
         android:text="启动动画" />
 
-    <com.allen.androidcustomview.widget.LoadingView
+    <com.stormdzh.androidcustomview.widget.LoadingView
         android:id="@+id/loading_view"
         android:layout_width="100dp"
         android:layout_height="100dp"

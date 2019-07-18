@@ -191,6 +191,6 @@
 ![网络图片，仅供娱乐](http://upload-images.jianshu.io/upload_images/2057501-a2b4eca9a8ddfc04.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/320)
 
 ***
-# github源码地址[**传送门**](https://github.com/lygttpod/AndroidCustomView/blob/master/app/src/main/java/com/allen/androidcustomview/widget/HorizontalProgressBar.java)
+# github源码地址[**传送门**](https://github.com/lygttpod/AndroidCustomView/blob/master/app/src/main/java/com/stormdzh/androidcustomview/widget/HorizontalProgressBar.java)
 ***
  > 谨以此篇来记录自己项目中遇到的问题，献给需要类似功能的小伙伴们。如果你有好的建议欢迎评论指出，大家一起讨论、学习、进步！

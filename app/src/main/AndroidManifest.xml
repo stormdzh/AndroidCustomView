@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.allen.androidcustomview">
+    package="com.stormdzh.androidcustomview">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -36,6 +39,8 @@
         <activity android:name=".activity.HoverItemActivity"/>
         <activity android:name=".activity.ItemCenterRVActivity"/>
         <activity android:name=".activity.TestActivity"/>
+        <activity android:name=".activity.MediaCameraActivity"/>
+        <activity android:name=".activity.SurfaceViewBubbleActivity"/>
     </application>
 
 </manifest>

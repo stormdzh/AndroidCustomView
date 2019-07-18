@@ -3,7 +3,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.allen.androidcustomview.widget.banner.BannerView
+    <com.stormdzh.androidcustomview.widget.banner.BannerView
         android:id="@+id/banner_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

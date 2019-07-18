@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="20dp">
 
-    <com.allen.androidcustomview.widget.FadeInTextView
+    <com.stormdzh.androidcustomview.widget.FadeInTextView
         android:id="@+id/fade_in_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -13,7 +13,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="20dp" />
 
-    <com.allen.androidcustomview.widget.LoadingButton
+    <com.stormdzh.androidcustomview.widget.LoadingButton
         android:id="@+id/loading_btn"
         android:layout_width="match_parent"
         android:layout_height="45dp"

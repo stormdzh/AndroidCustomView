@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <com.allen.androidcustomview.widget.WaveViewBySinCos
+        <com.stormdzh.androidcustomview.widget.WaveViewBySinCos
             android:layout_width="match_parent"
             android:layout_height="100dp"
             wave:waveAmplitude="10dp"
@@ -20,7 +20,7 @@
             wave:waveStartPeriod="1"
             wave:waveType="sin" />
 
-        <com.allen.androidcustomview.widget.WaveViewBySinCos
+        <com.stormdzh.androidcustomview.widget.WaveViewBySinCos
             android:layout_width="match_parent"
             android:layout_height="100dp"
             wave:waveAmplitude="10dp"
@@ -33,7 +33,7 @@
     </FrameLayout>
 
 
-    <com.allen.androidcustomview.widget.WaveViewBySinCos
+    <com.stormdzh.androidcustomview.widget.WaveViewBySinCos
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="80dp"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp">
 
-        <com.allen.androidcustomview.widget.WaveViewBySinCos
+        <com.stormdzh.androidcustomview.widget.WaveViewBySinCos
             android:id="@+id/wave_sin"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -62,7 +62,7 @@
             wave:waveStartPeriod="1"
             wave:waveType="sin" />
 
-        <com.allen.androidcustomview.widget.WaveViewBySinCos
+        <com.stormdzh.androidcustomview.widget.WaveViewBySinCos
             android:id="@+id/wave_sin2"
             android:layout_width="match_parent"
             android:layout_height="100dp"

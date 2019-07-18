@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
 
-    <com.allen.androidcustomview.widget.DragBallView
+    <com.stormdzh.androidcustomview.widget.DragBallView
         android:id="@+id/drag_ball_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

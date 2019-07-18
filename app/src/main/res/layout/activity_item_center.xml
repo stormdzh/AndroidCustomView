@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.allen.androidcustomview.widget.ItemCenterRecyclerView
+    <com.stormdzh.androidcustomview.widget.ItemCenterRecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="100dp" />
 
-    <com.allen.androidcustomview.widget.ItemCenterRecyclerView
+    <com.stormdzh.androidcustomview.widget.ItemCenterRecyclerView
         android:id="@+id/recycler_view_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
